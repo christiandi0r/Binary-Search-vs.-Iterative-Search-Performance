@@ -16,9 +16,9 @@ int main()
     const int range = 100000000; // 100 million
     std::uniform_int_distribution<int> dis(1, range);
 
-    for (int idx = 0; idx < num_N_values; ++idx) 
+    for (int i = 0; i < num_N_values; ++i) 
     {
-        int N = N_values[idx];
+        int N = N_values[i];
 
         // Generate unique random numbers (auto-sorted by set)
         std::set<int> numbers;
