@@ -16,7 +16,7 @@ int main()
     const int range = 100000000; // 100 million
     std::uniform_int_distribution<int> dis(1, range);
 
-    for (int i = 0; i < num_N_values; ++i) 
+    for (int i = 0; i < num_N_values; i++) 
     {
         int N = N_values[i];
 
